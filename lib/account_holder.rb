@@ -21,8 +21,7 @@ class AccountHolder
 
     def banks
         accounts.map do |account|
-            binding.pry
             account.bank.name
-        end
+        end.uniq
     end
 end
