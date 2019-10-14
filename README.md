@@ -50,6 +50,12 @@ You already have your class method .all (Account.all, AccountHolder.all, Bank.al
 1. Bank#account_holders
     - Method should return an array of all account_holders of the specified bank.
 
+1. AccountHolder#new_account(number, nickname, bank)
+    - Takes in 3 arguments, the account number, nickname, and bank object and will create a new account associated with the account_holder instance the method was called on.
+
+1. Bank#new_account(number, nickname, account_holder)
+    - Takes in 3 arguments, the account number, nickname, and account_holder object and will create a new account associated with the bank instance the method was called on.
+
 1. Bank#oldest_account
     - Method returns the oldest account associated with the specified bank.
 
